@@ -1,0 +1,116 @@
+/* Navbar */
+.navbar {
+    background-color: #222;
+    padding: 15px 30px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .nav-links {
+    display: flex;
+    gap: 25px;
+  }
+  .nav-links a {
+    color: white;
+    transition: color 0.3s;
+  }
+  .nav-links a:hover {
+    color: #ffcc00;
+  }
+  
+  /* Hero section */
+  .hero {
+    background: linear-gradient(to right, #f2709c, #ff9472);
+    color: white;
+    padding: 80px 30px;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+  }
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+  }
+  .shop-now-btn {
+    background-color: #fff;
+    color: #f2709c;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  .shop-now-btn:hover {
+    background-color: #ffe0ec;
+  }
+  
+  /* Products section */
+  #products {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  #products h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+  }
+  .product {
+    background: white;
+    border-radius: 10px;
+    width: 220px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+  .product:hover {
+    transform: translateY(-5px);
+  }
+  .product img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+  }
+  .product h3 {
+    padding: 10px;
+  }
+  .product p {
+    color: #f2709c;
+    font-weight: bold;
+    padding: 0 10px 10px;
+  }
+  .product button {
+    background: #f2709c;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .product button:hover {
+    background: #d8577e;
+  }
+  
+  /* Footer */
+  footer {
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+  }
+  
