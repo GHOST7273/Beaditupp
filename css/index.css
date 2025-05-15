@@ -113,4 +113,96 @@
     background: #222;
     color: white;
   }
+
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 15px 20px;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+    }
+  
+    .hero {
+      padding: 50px 20px;
+    }
+  
+    .hero h1 {
+      font-size: 2.2rem;
+    }
+  
+    .hero p {
+      font-size: 1rem;
+    }
+  
+    .shop-now-btn {
+      padding: 10px 16px;
+    }
+  
+    #products {
+      padding: 30px 10px;
+    }
+  
+    #products h2 {
+      font-size: 1.6rem;
+    }
+  
+    .product-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .product {
+      width: 90%;
+      max-width: 300px;
+    }
+  
+    footer {
+      font-size: 0.9rem;
+      padding: 15px;
+    }
+  }
+  
+  /* Hamburger icon - hidden by default on large screens */
+.menu-toggle {
+    font-size: 28px;
+    color: white;
+    cursor: pointer;
+    display: none;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .menu-toggle {
+      display: block;
+    }
+  
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      background-color: #222;
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    .nav-links.show {
+      display: flex;
+    }
+  
+    .nav-links li {
+      padding: 10px 0;
+      border-top: 1px solid #333;
+      text-align: left;
+      padding-left: 20px;
+    }
+  
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
   
